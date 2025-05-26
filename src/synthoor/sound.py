@@ -5,7 +5,7 @@ import time
 
 import numpy as np
 
-from .config import _LOG_CC, _LOG_CX, DEFAULT_AMP, FPS, LATENCY, MIDDLE_C
+from .config import _LOG_CC, _LOG_CX, DEFAULT_AMP, FPS, LATENCY, MIDDLE_C, MIDDLE_A, _LOG_A3
 from .player import add_sound, get_bpm, get_schedule, get_time, t2frames
 
 logger = logging.getLogger(__name__)
